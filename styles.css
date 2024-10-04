@@ -1,28 +1,26 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     display: flex;
     align-items: center;
     justify-content: center;
-
     height: 100vh;
 }
 
-#calculadora-container{
+#calculadora-container {
     width: 400px;
     padding: 1px;
     background-color: rgb(42, 41, 41);
     border-radius: 30px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: .5fr .5fr .5fr .5fr .5fr .5fr;
-    
-} 
+}
 
-button{
+button {
     padding: 20px;
     width: 100%;
     text-align: center;
@@ -30,55 +28,55 @@ button{
     background-color: #a4a2a2d4;
     color: #fff;
     cursor: pointer;
+    -webkit-appearance: none; /* for WebKit browsers */
+    -moz-appearance: none; /* for Firefox */
 }
 
-button:hover{
+button:hover {
     background-color: rgb(184, 185, 185);
 }
 
-
-#resultadosInput{
+#resultadosInput {
     padding: 60px;
     background-color: rgb(42, 41, 41);
     border: none;
     grid-column-start: 1;
     grid-column-end: 5;
     border-radius: 30px 30px 0 0;
-
 }
 
- #num0 {
+#num0 {
     grid-column: span 2;
     border-radius: 0 0 0 30px;
 }
 
-.symbol{
+.symbol {
     background-color: rgb(254, 180, 43);
     padding-left: 30px;
     padding-right: 30px;
     font-size: 25px;
 }
 
-.symbol:hover{
+.symbol:hover {
     background-color: rgb(198, 129, 1);
 }
 
-.specialBtn{
+.specialBtn {
     background-color: rgb(220, 220, 220);
     color: #2a2a2a;
     font-weight: 550;
-
 }
 
-#igual{
+#igual {
     border-radius: 0 0 30px 0;
 }
 
-input{
+input {
     background-color: rgb(42, 41, 41);
     text-align: end;
     font-size: 30px;
     border: none;
-    color: #fff; 
+    color: #fff;
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
 }
-
