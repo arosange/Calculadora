@@ -28,8 +28,7 @@ button {
     background-color: #a4a2a2d4;
     color: #fff;
     cursor: pointer;
-    -webkit-appearance: none; /* for WebKit browsers */
-    -moz-appearance: none; /* for Firefox */
+    border: 1px solid black;
 }
 
 button:hover {
@@ -77,6 +76,4 @@ input {
     font-size: 30px;
     border: none;
     color: #fff;
-    -webkit-appearance: none; 
-    -moz-appearance: none; 
 }
